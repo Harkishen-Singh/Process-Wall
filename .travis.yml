@@ -1,0 +1,8 @@
+language: java
+
+install: true
+
+script:
+  - mvn clean package
+  - cd scripts/
+  - ./run.sh
